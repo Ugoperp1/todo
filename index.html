@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"   />
+</head>
+<style>
+
+    body{
+       animation-name: demo;
+       animation-duration: 25s;
+       background-image: url(images/td10.jpg);
+       background-repeat: none;
+       background-size: cover;
+       
+
+    }
+
+
+@keyframes demo {
+    0%{background-image: url(images/favicon.png); background-repeat: no-repeat; background-size: cover;}
+    25%{background-image: url(images/td0.jpg); background-repeat: no-repeat; background-size: cover;}
+    50%{background-image: url(images/oneai.svg); background-repeat: no-repeat; background-size: cover;}
+    100%{background-image: url(images/td8.webp); background-repeat: no-repeat; background-size: cover;}
+}
+
+
+
+</style>
+
+<body>
+    <div>
+        <h1>Work To Do</h1>
+    </div>
+
+
+    <div>
+        <p id="first">enter text into the input field to add items to your list</p>
+        <p id="second">click the item to mark it as complete</p>
+        <p id="third">click the X to remove the item from the list</p>
+    </div>
+
+
+    <div>
+        <input id="userInput" name="" type="text" placeholder="new item..." maxlength="27">
+        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+    </div>
+
+
+    <ul>
+        <!-- <li>task one</li> -->
+    </ul>
+
+</body>
+<script src="script/todo.js">
+
+</script>
+
+</html>
